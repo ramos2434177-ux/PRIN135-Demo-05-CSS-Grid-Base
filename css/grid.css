@@ -21,8 +21,7 @@
 }
 
 .non-fraction {
-    grid-template-columns: 350px 300px 300px;
-
+    grid-template-columns: 350px 350px 350px;
 }
 
 .fraction {
@@ -177,6 +176,7 @@
 
 /* Justify Self */
 #justify-self {
+    grid-template-columns: repeat(4, 1fr);
 
     .js-stretch {
         justify-self: stretch;
@@ -197,6 +197,7 @@
 
 /* Align Self */
 #align-self {
+    grid-template-columns: repeat(4, 1fr);
 
     .as-stretch {
         align-self: stretch;
